@@ -3,13 +3,16 @@ export async function fetchMinecraftNews(apiKey) {
   const response = await fetch(endpoint);
   const data = await response.json();
   
+  const excludedKeywords = ['película', 'movie', 'film'];
+
   const filteredArticles = data.articles.filter(article => {
     const title = article.title.toLowerCase();
-    const source = article.source.name.toLowerCase();
-    return (
-      title.includes('minecraft') || source.includes('minecraft')
-    );
+    const description = (article.description || '').toLowerCase();
+  
+    const hasExcludedWord = excludedKeywords.some(word => title.includes(word) || description.includes(word));
+  
+    return (title.includes('minecraft') || description.includes('minecraft')) && !hasExcludedWord;
   });
-
+  
   return filteredArticles;
 }
