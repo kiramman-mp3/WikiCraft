@@ -3,7 +3,7 @@
 
 
 body {
-  background: url('/public/images/bg-minecraft.jpg') no-repeat center center fixed;
+  background: url('../images/bg-minecraft.png') no-repeat center center fixed;
   background-size: cover;
   font-family: 'Minecraft', sans-serif;
   color: #111111;
