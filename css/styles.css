@@ -1,0 +1,84 @@
+/* Tipografías */
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+
+body {
+  background: url('../images/bg-minecraft.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Minecraft', sans-serif;
+  color: #171615;
+}
+
+.minecraft-logo {
+    background: url('../images/icon-minecraft.svg') no-repeat center center;
+    display: inline-block;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    color: transparent;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.minecraft-logo:hover {
+    opacity: 0.8;
+}
+
+.navbar {
+  background-color: #262423 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #d0c5c0;
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  color: #7abf5a;
+}
+
+section {
+  background-color: rgba(38, 36, 35, 0.8);
+  border-bottom: 5px solid #262423;
+}
+
+h1{
+  text-shadow: 5px 5px #262423; 
+  
+}
+
+.card {
+  background-color: rgb(47, 45, 44);
+  color: white;
+  box-shadow: 5px 5px #7C4A03;
+  border-radius: 0 !important;
+}
+
+footer {
+  background-color: #262423;
+  color: white;
+}
+
+.btn-minecraft {
+    display: inline-block;
+    font-family: 'Minecraft', sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    background: linear-gradient(to bottom, #52a535 0%, #2a641c 100%);
+    border: 2px solid #3d6b0b;
+    box-shadow: 0 2px #2a4a07, 0 4px #2a4a07;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.2s ease;
+    cursor: pointer;
+    border-radius: 0%;
+  }
+  
+  .btn-minecraft:hover {
+    background: linear-gradient(to bottom, #5ebf00 0%, #216500 100%);
+    transform: translateY(-2px);
+  }
+  
