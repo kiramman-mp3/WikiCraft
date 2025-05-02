@@ -85,4 +85,12 @@ footer {
   color: #e0e0e0 !important;
 }
 
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+p {
+  text-align: justify;
+}
   
