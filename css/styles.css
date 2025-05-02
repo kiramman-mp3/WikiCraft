@@ -81,4 +81,8 @@ footer {
     background: linear-gradient(to bottom, #5ebf00 0%, #216500 100%);
     transform: translateY(-2px);
   }
+  .text-white-soft {
+  color: #e0e0e0 !important;
+}
+
   
