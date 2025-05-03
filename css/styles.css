@@ -42,6 +42,11 @@ section {
   border-bottom: 5px solid #262423;
 }
 
+.minecraft-section {
+  background-color: rgba(38, 36, 35, 0.5); 
+}
+
+
 h1{
   text-shadow: 5px 5px #262423; 
   
