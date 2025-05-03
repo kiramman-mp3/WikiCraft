@@ -114,3 +114,8 @@ footer {
   min-height: 250px;        /* Establece una altura mínima para que todas las cartas sean del mismo tamaño */
 }
 
+h2{
+  color: #48c344;
+  text-shadow: 5px 5px #000000; 
+  
+}
