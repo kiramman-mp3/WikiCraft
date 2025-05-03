@@ -1,5 +1,5 @@
 export async function fetchMinecraftNews(apiKey) {
-  const endpoint = `https://newsapi.org/v2/everything?q=minecraft&language=es&apiKey=${apiKey}`;
+  const endpoint = `https://newsapi.org/v2/everything?q=minecraft&language=en&apiKey=${apiKey}`;
   const response = await fetch(endpoint);
   const data = await response.json();
   
