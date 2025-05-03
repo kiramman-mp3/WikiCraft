@@ -82,3 +82,8 @@ footer {
     transform: translateY(-2px);
   }
   
+  h3{
+    color: #d0c5c0;
+    text-shadow: 5px 5px #000000; 
+    
+  }
