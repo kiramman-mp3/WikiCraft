@@ -1,9 +1,9 @@
 export async function fetchMinecraftNews(apiKey) {
-  const endpoint = `https://newsapi.org/v2/everything?q=minecraft&language=es&apiKey=${apiKey}`;
+  const endpoint = `https://newsapi.org/v2/everything?q=minecraft&language=en&apiKey=${apiKey}`;
   const response = await fetch(endpoint);
   const data = await response.json();
   
-  const excludedKeywords = ['película', 'movie', 'film'];
+  const excludedKeywords = ['movie', 'theaters', 'lego', 'ai', 'windows'];
 
   const filteredArticles = data.articles.filter(article => {
     const title = article.title.toLowerCase();
