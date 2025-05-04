@@ -11,9 +11,27 @@ body {
   box-sizing: border-box;
 }
 
+ul {
+  font-family: 'arial', sans-serif;
+  font-size: 1rem;  /* Aumenta el tamaño de la lista */
+  letter-spacing: 1px;  /* Aumenta el espacio entre las letras */
+  line-height: 1;     /* Aumenta la altura de la línea para mayor separación */
+}
+
+li {
+  margin-bottom: 1rem;  /* Añade espacio entre los elementos de la lista */
+}
+
 .main-content-section {
   background-color: rgba(0, 0, 0, 0.8);
   padding: 20px;
+}
+
+.img-craft {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
 }
 
 .minecraft-logo {
@@ -55,7 +73,9 @@ section {
   background-color: rgba(38, 36, 35, 0.5);
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   text-shadow: 5px 5px #262423;
   font-family: 'Minecraft', sans-serif;
 }
@@ -165,7 +185,8 @@ footer small {
   overflow: hidden;
 }
 
-.table th, .table td {
+.table th,
+.table td {
   padding: 10px;
   text-align: center;
   border: 1px solid #d0c5c0;
@@ -183,7 +204,9 @@ footer small {
 
 /* Responsividad */
 @media (max-width: 768px) {
-  .navbar-brand, .nav-link {
+
+  .navbar-brand,
+  .nav-link {
     font-size: 1em;
   }
 
@@ -199,7 +222,8 @@ footer small {
     padding: 1rem;
   }
 
-  .table th, .table td {
+  .table th,
+  .table td {
     padding: 8px;
   }
 
