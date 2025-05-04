@@ -12,7 +12,6 @@ body {
 }
 
 ul {
-  font-family: 'arial', sans-serif;
   font-size: 1rem;  /* Aumenta el tamaño de la lista */
   letter-spacing: 1px;  /* Aumenta el espacio entre las letras */
   line-height: 1;     /* Aumenta la altura de la línea para mayor separación */
