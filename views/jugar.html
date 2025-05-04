@@ -8,62 +8,7 @@
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
     <link href="../css/styles.css" rel="stylesheet">
-</head>
-
-<body class="bg-light">
-    <!-- Barra de navegación -->
-    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
-        <div class="container">
-            <a class="minecraft-logo" href="#"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ms-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <li class="nav-item"><a class="nav-link" href="../views/bloques.html">Bloques</a></li>
-                        <a class="nav-link" href="mobs.html">Mobs</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="crafteos.html">Crafteos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="alquimia.html">Alquimia</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="comunidad.html">Comunidad</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link active" href="jugar.html">Jugar</a> <!-- Página actual -->
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Contenido principal -->
-    <div class="container py-5">
-        <h1 class="text-center mb-4">Juega Minecraft</h1>
-        <p class="text-center mb-4">Gracias a Eaglercraft puedes jugar Minecraft directamente desde tu navegador sin necesidad de instalar nada.</p>
-
-        <div class="iframe-container shadow rounded">
-            <iframe src="https://minecraftforfreex.com/eaglercraft/" allowfullscreen></iframe>
-        </div>
-    </div>
-
-    <!-- Estilos específicos -->
     <style>
-        body {
-            background-image: url('../images/jugar/fondo.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: white;
-        }
-
         .iframe-container {
             position: relative;
             width: 100%;
@@ -81,12 +26,59 @@
             border: none;
             border-radius: 10px;
         }
-
-        h1, p {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
     </style>
+</head>
 
+
+<body class="bg-light">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="minecraft-logo" href="../views/Index.html"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/Index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/bloques.html">Bloques</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/mobs.html">Mobs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/crafteos.html">Crafteos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/alquimia.html">Alquimia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="../views/comunidad.html">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Jugar</a> <!-- Página actual -->
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="py-5 text-center text-white">
+        <div class="container">
+            <h2 class="display-4">Bienvenido a la seccion de Jugar</h2>
+            <p class="lead text-center">Aquí puedes disfrutar de Minecraft directamente desde tu navegador.
+            </p>
+        </div>
+    </section>
+    </br>
+
+    <div class="iframe-container shadow rounded">
+        <iframe src="https://minecraftforfreex.com/eaglercraft/" allowfullscreen></iframe>
+    </div>
     <footer class="py-4 text-center">
         <div class="container">
             <small>© 2025 Grupo más lindo de la FISEI.</small>
@@ -95,4 +87,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
