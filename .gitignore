@@ -1,0 +1,62 @@
+# --- Archivos generados por JavaScript ---
+
+# Archivos de salida de herramientas de construcción
+dist/
+build/
+
+# Archivos de caché y temporales
+*.log
+*.tmp
+*.cache
+*.gz
+
+# Configuración del entorno local
+.env
+.env.local
+
+# Justificación:
+# Estos archivos y carpetas son generados automáticamente por herramientas de desarrollo frontend como Webpack, Vite o similares.
+# No deben subirse al repositorio porque se regeneran fácilmente o contienen información sensible o específica del entorno del desarrollador.
+
+# --- Archivos generados por Bootstrap ---
+
+# Dependencias de npm y Bower
+node_modules/
+bower_components/
+
+# Distribución de Bootstrap
+dist/
+
+# Archivos de mapa de CSS
+*.css.map
+
+# Archivos minimizados
+*.min.css
+*.min.js
+
+# Justificación:
+# Estos archivos provienen de herramientas externas (npm, Bower) o son generados automáticamente.
+# No se deben incluir en el repositorio para evitar duplicación de librerías o conflictos entre versiones locales.
+
+# --- Archivos generados por PHP ---
+
+# Dependencias de Composer
+vendor/
+
+# Archivo de bloqueo de Composer
+composer.lock
+
+# Caché de Laravel
+storage/framework/*
+
+# Caché de Symfony
+var/cache/*
+
+# Archivos de registro y temporales
+*.log
+*.tmp
+
+# Justificación:
+# Archivos como `vendor/` o `composer.lock` son propios del entorno de desarrollo y pueden reinstalarse fácilmente.
+# Las carpetas de caché deben ser ignoradas porque son específicas de entorno y no tienen lógica de negocio.
+
