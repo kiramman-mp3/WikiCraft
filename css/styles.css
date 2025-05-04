@@ -11,6 +11,11 @@ body {
   box-sizing: border-box;
 }
 
+.main-content-section {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
 .minecraft-logo {
   background: url('../images/icon-minecraft.svg') no-repeat center center;
   display: inline-block;
@@ -52,6 +57,7 @@ section {
 
 h1, h2, h3 {
   text-shadow: 5px 5px #262423;
+  font-family: 'Minecraft', sans-serif;
 }
 
 h1 {
