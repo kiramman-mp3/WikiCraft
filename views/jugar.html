@@ -8,7 +8,27 @@
     <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
     <link href="../css/styles.css" rel="stylesheet">
+    <style>
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+    </style>
 </head>
+
 
 <body class="bg-light">
     <!-- Barra de navegación -->
@@ -46,51 +66,19 @@
         </div>
     </nav>
 
-    <!-- Contenido principal -->
-    <div class="container py-5">
-        <h1 class="text-center mb-4">Juega Minecraft</h1>
-        <p class="text-center mb-4">Gracias a Eaglercraft puedes jugar Minecraft directamente desde tu navegador sin
-            necesidad de instalar nada.</p>
 
-        <div class="iframe-container shadow rounded">
-            <iframe src="https://minecraftforfreex.com/eaglercraft/" allowfullscreen></iframe>
+    <section class="py-5 text-center text-white">
+        <div class="container">
+            <h2 class="display-4">Bienvenido a la seccion de Jugar</h2>
+            <p class="lead text-center">Aquí puedes disfrutar de Minecraft directamente desde tu navegador.
+            </p>
         </div>
+    </section>
+    </br>
+
+    <div class="iframe-container shadow rounded">
+        <iframe src="https://minecraftforfreex.com/eaglercraft/" allowfullscreen></iframe>
     </div>
-
-    <!-- Estilos específicos -->
-    <style>
-        body {
-            background-image: url('../images/jugar/fondo.jpg');
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: white;
-        }
-
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-            overflow: hidden;
-        }
-
-        .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border: none;
-            border-radius: 10px;
-        }
-
-        h1,
-        p {
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
-        }
-    </style>
-
     <footer class="py-4 text-center">
         <div class="container">
             <small>© 2025 Grupo más lindo de la FISEI.</small>
