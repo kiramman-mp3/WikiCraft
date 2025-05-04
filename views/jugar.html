@@ -1,49 +1,20 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
-    <title>Jugar Minecraft - Wiki Minecraft</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body {
-            background-image: url('../images/jugar/fondo.jpg'); /* Cambia esto si usas otra imagen */
-            background-size: cover;
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            color: white;
-        }
-
-        .navbar {
-            background-color: rgba(0, 0, 0, 0.8);
-        }
-
-        .card {
-            background-color: rgba(0, 0, 0, 0.6);
-            color: white;
-        }
-
-        .iframe-container {
-            position: relative;
-            width: 100%;
-            padding-bottom: 56.25%;
-            height: 0;
-        }
-
-        .iframe-container iframe {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            border-radius: 10px;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wiki de Minecraft - Mobs</title>
+    <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="icon" href="../images/favicon.png" type="image/x-icon">
+    <link href="../css/styles.css" rel="stylesheet">
 </head>
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-dark">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Wiki Minecraft</a>
+
+<body class="bg-light">
+    <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+        <div class="container">
+            <a class="minecraft-logo" href="#"></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -53,13 +24,20 @@
                         <a class="nav-link" href="index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
+                        <li class="nav-item"><a class="nav-link" href="../views/bloques.html">Bloques</a></li>
                         <a class="nav-link" href="mobs.html">Mobs</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="crafteos.html">Crafteos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="jugar.html">Jugar</a>
+                        <a class="nav-link" href="alquimia.html">Alquimia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="comunidad.html">Comunidad</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="jugar.html">Jugar</a> <!-- Página actual -->
                     </li>
                 </ul>
             </div>
@@ -69,12 +47,45 @@
     <!-- Contenido principal -->
     <div class="container py-5">
         <h1 class="text-center mb-4">Juega Minecraft Clásico</h1>
-        <p class="text-center mb-4">Gracias a Eaglercraft puedes jugar Minecraft directamente desde tu navegador sin descargar nada.</p>
-        
-        <div class="iframe-container shadow">
+        <p class="text-center mb-4">Gracias a Eaglercraft puedes jugar Minecraft directamente desde tu navegador sin necesidad de instalar nada.</p>
+
+        <div class="iframe-container shadow rounded">
             <iframe src="https://minecraftforfreex.com/eaglercraft/" allowfullscreen></iframe>
         </div>
     </div>
+
+    <!-- Estilos específicos -->
+    <style>
+        body {
+            background-image: url('../images/jugar/fondo.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+        }
+
+        .iframe-container {
+            position: relative;
+            width: 100%;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+        }
+
+        .iframe-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 10px;
+        }
+
+        h1, p {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+    </style>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
