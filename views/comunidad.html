@@ -9,13 +9,6 @@
   <link href="../css/styles.css" rel="stylesheet" />
   <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
   <style>
-    body {
-      background: url('../images/bg-oscuro.webp') no-repeat center center fixed;
-      background-size: cover;
-      font-family: 'Minecraft', sans-serif;
-      color: #fdfdfd;
-    }
-
     .story-card {
       background-color: rgba(255, 255, 255, 0.05);
       border: 1px solid rgba(255, 255, 255, 0.1);
@@ -32,24 +25,6 @@
       height: 200px;
       object-fit: cover;
     }
-
-    .dialog-link {
-      position: absolute;
-      bottom: 10px;
-      left: 10px;
-      background-color: #fdf3c3;
-      color: #000;
-      padding: 6px 12px;
-      border-radius: 10px;
-      font-size: 0.85rem;
-      font-weight: bold;
-      text-decoration: none;
-      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
-    }
-
-    .dialog-link:hover {
-      background-color: #ffe866;
-    }
   </style>
 </head>
 
@@ -62,30 +37,34 @@
       </button>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link" href="Index.html">Inicio</a></li>
-          <li class="nav-item"><a class="nav-link" href="bloques.html">Bloques</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/Index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/bloques.html">Bloques</a></li>
           <li class="nav-item"><a class="nav-link" href="mobs.html">Mobs</a></li>
-          <li class="nav-item"><a class="nav-link" href="crafteos.html">Crafteos</a></li>
-          <li class="nav-item"><a class="nav-link" href="alquimia.html">Alquimia</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/crafteos.html">Crafteos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/alquimia.html">Alquimia</a></li>
           <li class="nav-item"><a class="nav-link active" href="#">Comunidad</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <section class="py-5 text-center">
-    <div class="container">
-      <h1 class="display-5 text-white">Historias de la Comunidad</h1>
-      <p class="lead text-light">Creaciones, aventuras y relatos reales de jugadores Minecraft.</p>
+  <!-- Sección de encabezado -->
+  <section class="py-5 text-center text-white-soft">
+    <div class="container text-white">
+      <h2 class="display-5">Historias de la Comunidad</h2>
+      <p class="lead text-center">Creaciones, aventuras y relatos reales de jugadores de Minecraft.</p>
     </div>
   </section>
 
+  <!-- Contenido principal -->
   <div class="container py-4">
-    <div id="community-stories" class="row g-4"></div>
+    <div id="community-stories" class="row g-4">
+      <!-- Aquí se agregarán las historias de la comunidad dinámicamente con JavaScript -->
+    </div>
   </div>
 
- 
-  <footer class="py-4 text-center">
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-dark text-white">
     <div class="container">
       <small>© 2025 Grupo más lindo de la FISEI.</small>
     </div>
