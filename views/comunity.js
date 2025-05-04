@@ -8,28 +8,28 @@ const communityStories = [
       url: "https://www.reddit.com/r/minecraftespanol/comments/1ke5erg/la_acr%C3%B3polis_te_necesita_h%C3%A9roe_estamos_lanzando/"
     },
     {
-      title: "Ciudad Steampunk en Supervivencia",
-      image: "https://i.imgur.com/Hh2ysod.jpeg", // FUNCIONA
-      summary: "Una ciudad inspirada en vaporpunk, construida sin comandos ni mods.",
-      url: "https://www.minecraft.net/en-us/article/community-city-steampunk"
+      title: "Builders/constructores para Network Minecraft",
+      image: "../images/comunidad/minenet.webp", // FUNCIONA
+      summary: "Se buscan builders creativos para un proyecto anónimo en desarrollo, se ofrece un apartado para aplicar a este proyecto.",
+      url: "https://www.reddit.com/r/minecraftespanol/comments/1kc8u3c/buildersconstructores_para_network_minecraft/"
     },
     {
-      title: "Fiesta en El End con el Dragón",
-      image: "https://i.imgur.com/xFuTOHR.jpeg", // FUNCIONA
-      summary: "Una fiesta improvisada en el End... sí, con el dragón incluido.",
-      url: "https://www.minecraft.net/en-us/article/discover-realms-stories"
+      title: "Que es mejor Minecraft dongeons o Minecraft legends",
+      image: "../images/comunidad/dungeon.webp", // FUNCIONA
+      summary: "Los jugadores discuten sobre cuál juego en su opinion es mejor.",
+      url: "https://www.reddit.com/r/minecraftespanol/comments/1kb3pjj/que_es_mejor_minecraft_dongeons_o_minecraft/"
     },
     {
-      title: "Mi aldea fue destruida, pero la reconstruí mejor",
-      image: "https://i.imgur.com/oTlfBts.jpeg", // FUNCIONA
-      summary: "Un relato sobre perderlo todo en Minecraft y volver más fuerte, junto a los aldeanos.",
-      url: "https://www.reddit.com/r/Minecraft/comments/15pazwp/i_rebuilt_my_entire_village/"
+      title: "Acabe Mi jardin Por fin ahora ya tengo casa",
+      image: "../images/comunidad/jardin.webp", // FUNCIONA
+      summary: "Usuarios comparten avances en sus construcciones y en sus mundos.",
+      url: "https://www.reddit.com/r/minecraftespanol/comments/1k8vamj/acabe_mi_jardin_por_fin_ahora_ya_tengo_casa_y/"
     },
     {
-      title: "¿Tu mejor noche en Minecraft?",
-      image: "https://i.imgur.com/gF5ZVCk.jpeg", // FUNCIONA
-      summary: "Jugadores recuerdan esas primeras noches llenas de miedo, cuevas y creatividad.",
-      url: "https://www.reddit.com/r/Minecraft/comments/2k7hva/what_are_your_best_minecraft_stories/"
+      title: "I made the Happy Ghast out of carboard",
+      image: "../images/comunidad/ghast.webp", // FUNCIONA
+      summary: "Los usuarios comparten manualidades que han hecho sobre el juego.",
+      url: "https://www.reddit.com/r/Minecraft/comments/1kdp0v5/i_made_the_happy_ghast_out_of_carboard/"
     }
   ];
 
