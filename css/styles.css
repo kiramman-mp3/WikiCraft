@@ -1,0 +1,258 @@
+/* Tipografías */
+@import url('https://fonts.cdnfonts.com/css/minecraft-4');
+
+body {
+  background: url('../images/bg-minecraft.png') no-repeat center center fixed;
+  background-size: cover;
+  font-family: 'Minecraft', sans-serif;
+  color: #171615;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  font-size: 1rem;  /* Aumenta el tamaño de la lista */
+  letter-spacing: 1px;  /* Aumenta el espacio entre las letras */
+  line-height: 1;     /* Aumenta la altura de la línea para mayor separación */
+}
+
+li {
+  margin-bottom: 1rem;  /* Añade espacio entre los elementos de la lista */
+}
+
+.main-content-section {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 20px;
+}
+
+.img-craft {
+  max-width: 100%;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.minecraft-logo {
+  background: url('../images/icon-minecraft.svg') no-repeat center center;
+  display: inline-block;
+  width: 20%;
+  height: 50px;
+  line-height: 50px;
+  color: transparent;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+.minecraft-logo:hover {
+  opacity: 0.8;
+}
+
+.navbar {
+  background-color: #262423 !important;
+}
+
+.navbar-brand,
+.nav-link {
+  color: #d0c5c0;
+  font-size: 1.2em;
+}
+
+.nav-link:hover {
+  color: #7abf5a;
+}
+
+section {
+  background-color: rgba(38, 36, 35, 0.8);
+  border-bottom: 5px solid #262423;
+  padding: 2rem;
+}
+
+.minecraft-section {
+  background-color: rgba(38, 36, 35, 0.5);
+}
+
+h1,
+h2,
+h3 {
+  text-shadow: 5px 5px #262423;
+  font-family: 'Minecraft', sans-serif;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: #48c344;
+  text-shadow: 5px 5px #000000;
+  font-size: 2rem;
+}
+
+h3 {
+  color: #d0c5c0;
+  text-shadow: 5px 5px #000000;
+  font-size: 1.5rem;
+}
+
+p {
+  font-family: 'arial', sans-serif;
+  text-align: justify;
+  font-size: 1rem;
+}
+
+.card {
+  background-color: rgb(47, 45, 44);
+  color: white;
+  box-shadow: 5px 5px #7C4A03;
+  border-radius: 0 !important;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1.5rem;
+}
+
+.card-body {
+  min-height: 250px;
+  padding: 1.5rem;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.fixed-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #262423;
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 1rem;
+}
+
+footer small {
+  font-size: 0.875rem;
+}
+
+.btn-minecraft {
+  display: inline-block;
+  font-family: 'Minecraft', sans-serif;
+  font-size: 16px;
+  color: #ffffff;
+  background: linear-gradient(to bottom, #52a535 0%, #2a641c 100%);
+  border: 2px solid #3d6b0b;
+  box-shadow: 0 2px #2a4a07, 0 4px #2a4a07;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+}
+
+.btn-minecraft:hover {
+  background: linear-gradient(to bottom, #5ebf00 0%, #216500 100%);
+  transform: translateY(-2px);
+}
+
+.text-white-soft {
+  color: #e0e0e0 !important;
+}
+
+.center-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.table {
+  width: 100%;
+  margin: 20px 0;
+  border-collapse: collapse;
+  background-color: rgba(38, 36, 35, 0.8);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #d0c5c0;
+}
+
+.table th {
+  color: #d0c5c0;
+  background-color: #262423;
+}
+
+.table img {
+  max-width: 40px;
+  height: auto;
+}
+
+/* Responsividad */
+@media (max-width: 768px) {
+
+  .navbar-brand,
+  .nav-link {
+    font-size: 1em;
+  }
+
+  .minecraft-logo {
+    width: 15%;
+  }
+
+  section {
+    padding: 1rem;
+  }
+
+  .card-body {
+    padding: 1rem;
+  }
+
+  .table th,
+  .table td {
+    padding: 8px;
+  }
+
+  footer {
+    padding: 1rem;
+  }
+
+  .center-img {
+    width: 100%;
+    height: auto;
+  }
+
+  .fixed-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  h3 {
+    font-size: 1.25rem;
+  }
+
+  .card-body {
+    min-height: 200px;
+  }
+}

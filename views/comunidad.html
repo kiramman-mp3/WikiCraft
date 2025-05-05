@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Historias de la Comunidad - WikiCraft</title>
+  <link href="../node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../css/styles.css" rel="stylesheet" />
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
+  <style>
+    .story-card {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      border-radius: 10px;
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .story-card:hover {
+      transform: scale(1.03);
+    }
+
+    .story-card img {
+      height: 200px;
+      object-fit: cover;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark shadow-sm">
+    <div class="container">
+      <a class="minecraft-logo" href="../views/Index.html"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="../views/Index.html">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/bloques.html">Bloques</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/mobs.html">Mobs</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/crafteos.html">Crafteos</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/alquimia.html">Alquimia</a></li>
+          <li class="nav-item"><a class="nav-link active" href="#">Comunidad</a></li>
+          <li class="nav-item"><a class="nav-link" href="../views/jugar.html">Jugar</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección de encabezado -->
+  <section class="py-5 text-center text-white-soft">
+    <div class="container text-white">
+      <h2 class="display-5">Historias de la Comunidad</h2>
+      <p class="lead text-center">Creaciones, aventuras y relatos reales de jugadores de Minecraft.</p>
+    </div>
+  </section>
+
+  <!-- Contenido principal -->
+  <div class="container py-4">
+    <div id="community-stories" class="row g-4">
+      <!-- Aquí se agregarán las historias de la comunidad dinámicamente con JavaScript -->
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-4 text-center bg-dark text-white">
+    <div class="container">
+      <small>© 2025 Grupo más lindo de la FISEI.</small>
+    </div>
+  </footer>
+
+  <script type="module" src="../views/comunity.js"></script>
+</body>
+
+</html>
