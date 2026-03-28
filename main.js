@@ -1,5 +1,5 @@
-import { initNewsSection } from './controllers/newscontroller.js';
-import { initUIHelpers } from './controllers/uicontroller.js';
+import { initNewsSection } from './controllers/NewsController.js';
+import { initUIHelpers } from './controllers/UIController.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   initUIHelpers();
