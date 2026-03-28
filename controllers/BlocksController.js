@@ -1,8 +1,7 @@
-// controllers/BlocksController.js
+// controllers/blockscontroller.js
 
-// Controlador para manejar la página de bloques
+// Controlador para manejar la página de bloques (Refactorizado para estático)
 export function blocksPage(req, res) {
-    // Lógica de bloques (si necesitas datos dinámicos puedes agregarlos aquí)
-    // Redirige a la página de bloques
-    res.redirect('/bloques.html');
+    console.log('Navegando a bloques');
+    // res.redirect('/bloques.html'); // No funciona en sitios estáticos
 }

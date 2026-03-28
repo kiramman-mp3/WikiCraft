@@ -1,5 +1,5 @@
-import { fetchMinecraftNews } from '../models/NewsModel.js';
-import { renderNews } from '../views/NewsView.js';
+import { fetchMinecraftNews } from '../models/newsmodel.js';
+import { renderNews } from '../views/newsview.js';
 
 export async function initNewsSection() {
   const apiKey = '8a284961d32a4ae1b7911fd8831c59aa';

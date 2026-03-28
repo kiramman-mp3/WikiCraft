@@ -1,4 +1,4 @@
-import { renderStories } from '../controllers/Comunity.js';
+import { renderStories } from '../controllers/comunity.js';
 
 const communityStories = [
     {
