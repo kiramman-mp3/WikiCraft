@@ -9,24 +9,7 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link href="../css/styles.css" rel="stylesheet" />
   <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
-  <style>
-    .story-card {
-      background-color: rgba(255, 255, 255, 0.05);
-      border: 1px solid rgba(255, 255, 255, 0.1);
-      border-radius: 10px;
-      overflow: hidden;
-      transition: transform 0.3s ease;
-    }
-
-    .story-card:hover {
-      transform: scale(1.03);
-    }
-
-    .story-card img {
-      height: 200px;
-      object-fit: cover;
-    }
-  </style>
+  <link rel="icon" href="../images/favicon.png" type="image/x-icon" />
 </head>
 
 <body class="minecraft-theme">
@@ -50,23 +33,38 @@
     </div>
   </nav>
 
-  <!-- Sección de encabezado -->
-  <section class="py-5 text-center text-white-soft">
-    <div class="container text-white">
-      <h1 class="display-5">Historias de la Comunidad</h1>
-      <p class="lead text-center">Creaciones, aventuras y relatos reales de jugadores de Minecraft.</p>
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white active">
+    <div class="container py-5">
+      <div class="floating">
+        <h1 class="display-3 mb-3">Voz de la Comunidad</h1>
+        <p class="lead mx-auto" style="max-width: 800px;">
+          Descubre los relatos y aventuras que dan vida al universo de Minecraft. Inspírate con las creaciones de otros jugadores o prepárate para compartir la tuya.
+        </p>
+      </div>
+
+      <div class="mt-5">
+        <a href="https://reddit.com/r/minecraft" target="_blank" class="btn btn-minecraft">¡Únete a la conversación!</a>
+      </div>
     </div>
   </section>
 
-  <!-- Contenido principal -->
-  <div class="container py-4">
-    <div id="community-stories" class="row g-4">
-      <!-- Aquí se agregarán las historias de la comunidad dinámicamente con JavaScript -->
+  <!-- Main Feed -->
+  <main class="container py-4">
+    <div class="glass-panel">
+      <h2 class="text-white mb-4">Relatos de r/minecraftespanol</h2>
+      <div id="community-stories" class="row g-4">
+        <!-- Historias inyectadas dinámicamente -->
+        <div class="col-12 text-center text-white p-5">
+          <div class="spinner-border text-success mb-3" role="status"></div>
+          <p>Consultando los archivos de la comunidad...</p>
+        </div>
+      </div>
     </div>
-  </div>
+  </main>
 
   <!-- Footer -->
-  <footer class="py-4 text-center bg-dark text-white">
+  <footer class="py-4 text-center">
     <div class="container">
       <small>© 2025 Grupo más lindo de la FISEI.</small>
     </div>

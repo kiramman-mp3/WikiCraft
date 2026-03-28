@@ -4,7 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Descubre todos los bloques de Minecraft: Overworld, End y más. Aprende sus usos y dónde encontrarlos.">
+    <meta name="description"
+        content="Descubre todos los bloques de Minecraft: Overworld, End y más. Aprende sus usos y dónde encontrarlos.">
     <title>WikiCraft | Bloques - Explora el Mundo de Minecraft</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
@@ -33,319 +34,185 @@
         </div>
     </nav>
 
-    <section class="py-5 text-center text-white">
-        <div class="container">
-            <h1 class="display-4">Bloques en Minecraft</h1>
-            <p class="lead text-center">Aqui puedes descubrir los materiales mas epicos y resistentes para construir.
-            </p>
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white active">
+        <div class="container py-5">
+            <div class="floating">
+                <h1 class="display-3 mb-3">Archivos de Bloques</h1>
+                <p class="lead mx-auto" style="max-width: 800px;">
+                    Explora nuestra base de datos completa de materiales. Desde la piedra más común del Overworld hasta
+                    los misteriosos bloques del End.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div class="mt-5 d-flex justify-content-center gap-3">
+                <a href="#overworld" class="btn btn-minecraft">Overworld</a>
+                <a href="#end" class="btn btn-minecraft">The End</a>
+            </div>
         </div>
     </section>
-    </br>
 
-    <!-- Información de los bloques -->
-    <section id="overworld">
-        <h2 class="py-2 text-center">Bloques del Overworld</h2>
-        <h3> Bloques comunes </h3>
-        <div class="container my-5">
-            <div class="row g-4">
-                <!-- Bloque de Piedra -->
+    <!-- Overworld Section -->
+    <section id="overworld" class="container active">
+        <div class="glass-panel">
+            <h2 class="text-center mb-5 text-gold">Dimension: Overworld</h2>
+
+            <h4 class="mb-4 text-white">● Bloques Comunes</h4>
+            <div class="row g-4 mb-5">
+                <!-- Piedra -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Piedra</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/piedra.webp" alt="Bloque de Piedra" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un bloque basico que se usa para muchas construcciones.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Piedra</h5>
+                            <img src="../images/piedra.webp" alt="Piedra" class="card-icon">
+                            <p class="card-text">Base fundamental para herramientas y construcciones.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Madera -->
+                <!-- Madera -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Madera</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/madera.webp" alt="Bloque de Madera" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Perfecto para crear herramientas y muchos otros objetos.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Madera</h5>
+                            <img src="../images/madera.webp" alt="Madera" class="card-icon">
+                            <p class="card-text">Esencial para iniciar tu supervivencia.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Tierra -->
+                <!-- Tierra -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Tierra</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/tierra.webp" alt="Bloque de Tierra" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Se encuentra en la mayoria de los biomas.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Tierra</h5>
+                            <img src="../images/tierra.webp" alt="Tierra" class="card-icon">
+                            <p class="card-text">Presente en casi todos los climas del mundo.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <h3> Bloques de minerales </h3>
-        <div class="container my-5">
-            <div class="row g-4">
-                <!-- Bloque de Carbón -->
+
+            <h4 class="mb-4 text-white">● Bloques de Minerales</h4>
+            <div class="row g-4 mb-5">
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Carbon</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/carbon.webp" alt="Bloque de Carbon" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho con fragmentos de carbon.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Oro</h5>
+                            <img src="../images/oro.webp" alt="Oro" class="card-icon">
+                            <p class="card-text">Lingotes forjados en bloques de gran valor.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Hierro -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Hierro</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/hierro.webp" alt="Bloque de Hierro" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho de lingotes de hierro.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Diamante</h5>
+                            <img src="../images/diamante.webp" alt="Diamante" class="card-icon">
+                            <p class="card-text">El material más resistente y codiciado.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Oro -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Oro</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/oro.webp" alt="Bloque de Oro" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho de lingotes de oro.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bloque de Diamante -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Diamante</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/diamante.webp" alt="Bloque de Diamante"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho de diamantes.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bloque de Redstone -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Redstone</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/redstone.webp" alt="Bloque de Redstone"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho con redstone.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bloque de Lapizlázuli -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Lapizlazuli</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/lapizlazuli.webp" alt="Bloque de Lapizlazuli"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho con lapizlazuli.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Redstone</h5>
+                            <img src="../images/redstone.webp" alt="Redstone" class="card-icon">
+                            <p class="card-text">Energía pura para tus mecanismos.</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <h3> Bloques decorativos </h3>
-        <div class="container my-5">
+            <h4 class="mb-4 text-white">● Bloques Decorativos</h4>
             <div class="row g-4">
-                <!-- Bloque de Lana -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Lana</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/lana.webp" alt="Bloque de Lana" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho de lana, disponible en varios colores.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Cristal</h5>
+                            <img src="../images/cristal.webp" alt="Cristal" class="card-icon">
+                            <p class="card-text">Transparencia ideal para tus bases modernas.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Cristal -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Cristal</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/cristal.webp" alt="Bloque de Cristal" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho de vidrio.</p>
+                        <div class="card-body">
+                            <h5 class="card-title">Amatista</h5>
+                            <img src="../images/amatista.png" alt="Amatista" class="card-icon">
+                            <p class="card-text">Ecos mágicos y resonantes en bloques púrpuras.</p>
                         </div>
                     </div>
                 </div>
-                <!-- Bloque de Obsidiana -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Obsidiana</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/obsidiana.webp" alt="Bloque de Obsidiana"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un bloque muy resistente.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bloque de Musgo -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Musgo</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/musgo.png" alt="Bloque de Musgo" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Se genera naturalmente en el suelo.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Bloque de Amatista -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Amatista</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/amatista.png" alt="Bloque de Amatista"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Hecho con fragmentos de amatista.</p>
-                        </div>
-                    </div>
-                </div>
-                <!-- Cofre -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
+                        <div class="card-body">
                             <h5 class="card-title">Cofre</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/cofre.webp" alt="Cofre" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un bloque de almacenamiento.</p>
+                            <img src="../images/cofre.webp" alt="Cofre" class="card-icon">
+                            <p class="card-text">Tu almacén seguro para cada aventura.</p>
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
+        <!-- End Section -->
+        <section id="end" class="container active">
+            <div class="glass-panel">
+                <h2 class="text-center mb-5 text-gold">Dimension: The End</h2>
 
-    </section>
-
-    <section id="end">
-        <h2 class="py-2 text-center">Bloques del End</h2>
-        <h3> Bloques comunes </h3>
-        <div class="container my-5">
-            <div class="row g-4">
-  
-                <!-- Piedra del End -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Piedra del End</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/piedra_end.webp" alt="Piedra del End" class="img-fluid fixed-image">
+                <h4 class="mb-4 text-white">● Bloques Comunes</h4>
+                <div class="row g-4 mb-5">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Piedra del End</h5>
+                                <img src="../images/piedra_end.webp" alt="Piedra del End" class="card-icon">
+                                <p class="card-text">La roca firme y extraña que forma el núcleo del End.</p>
                             </div>
-                            <p class="card-text">Bloque sólido que se encuentra en el End.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Purpur</h5>
+                                <img src="../images/purpur.webp" alt="Purpur" class="card-icon">
+                                <p class="card-text">Material de construcción único de las estructuras flotantes.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Bloque de Purpur -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Bloque de Purpur</h5>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/purpur.webp" alt="Bloque de Purpur" class="img-fluid fixed-image">
+                <h4 class="mb-4 text-white">● Objetos y Depósitos</h4>
+                <div class="row g-4">
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Cofre del End</h5>
+                                <img src="../images/cofre_ednd.webp" alt="Cofre del End" class="card-icon">
+                                <p class="card-text">Tu inventario vinculado a través de todas las dimensiones.</p>
                             </div>
-                            <p class="card-text">Bloque utilizado en las ciudades del End.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Huevo del Dragón</h5>
+                                <img src="../images/huevo_dragon.webp" alt="Huevo del Dragón" class="card-icon">
+                                <p class="card-text">El trofeo definitivo tras derrotar al guardián del End.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card shadow-sm">
+                            <div class="card-body">
+                                <h5 class="card-title">Caja Shulker</h5>
+                                <img src="../images/caja_shulker.webp" alt="Caja Shulker" class="card-icon">
+                                <p class="card-text">Almacenamiento portátil y compacto para grandes expediciones.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-
-                <!-- Cofre del End -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Cofre del End</h5>
-                            <div class="image-container d-flex justify-content-center">
-                            <img src="../images/cofre_ednd.webp" alt="Cofre del End" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Permite almacenar objetos que se comparten entre todos los cofres del End.</p>
-                        </div>
-                    </div>
-                </div>
-
-
-
             </div>
-        </div>
-
-        <h3> Bloques decorativos </h3>
-        <div class="container my-5">
-            <div class="row g-4">
-
-                <!-- Cristal del End -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Cristal del End</h5>
-                            <div class="image-container d-flex justify-content-center">
-                            <img src="../images/cristal_end.webp" alt="Cristal del End" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un bloque que se encuentra alrededor del portal al End.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Huevo del Dragón -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Huevo del Dragón</h5>
-                            <div class="image-container d-flex justify-content-center">
-                            <img src="../images/huevo_dragon.webp" alt="Huevo del Dragón" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Es un objeto especial que se utiliza como trofeo.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Caja Shulker -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h5 class="card-title">Caja Shulker</h5>
-                            <div class="image-container d-flex justify-content-center">
-                            <img src="../images/caja_shulker.webp" alt="Caja Shulker" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Permiten almacenar artículos y ser transportados.</p>
-                        </div>
-                    </div>
-                </div>                
-
-            </div>
-        </div>
-        
+        </section>
 
     </section>
 

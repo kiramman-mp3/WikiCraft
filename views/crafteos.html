@@ -32,215 +32,152 @@
     </div>
   </nav>
 
-  <section class="py-5 text-center text-white">
-    <div class="container">
-      <h1 class="display-4">Crafteos en Minecraft</h1>
-      <p class="lead text-center">Aprende a construir herramientas, bloques y objetos esenciales para sobrevivir y
-        prosperar.</p>
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white active">
+    <div class="container py-5">
+      <div class="floating">
+        <h1 class="display-3 mb-3">Recetario</h1>
+        <p class="lead mx-auto" style="max-width: 800px;">
+          Domina los secretos de la fabricación. Desde herramientas básicas hasta equipamiento de combate avanzado y bloques utilitarios.
+        </p>
+      </div>
+
+      <div class="mt-5 d-flex justify-content-center gap-3 flex-wrap">
+        <a href="#herramientas" class="btn btn-minecraft">Recolección</a>
+        <a href="#combate" class="btn btn-minecraft">Combate</a>
+        <a href="#utilitarios" class="btn btn-minecraft">Utilidad</a>
+      </div>
     </div>
   </section>
 
-  <br>
-
-  <div class="container mb-5 main-content-section">
-    <!-- FILA 1: Introducción y tip de supervivencia arriba -->
-    <div class="row mb-5">
-      <div class="col-md-8">
-        <h2>Que es el crafteo</h2>
-        <p class="text-white">El crafteo es el proceso mediante el cual los jugadores combinan recursos para crear
-          herramientas, armas,
-          armaduras y bloques funcionales. Usando una mesa de trabajo, se pueden desbloquear miles de combinaciones
-          distintas esenciales para avanzar en el juego.</p>
-
-        <section class="py-4 text-white">
-          <div class="container">
-            <h2>Crafteos de herramientas, armas y armaduras</h2>
-            <p>En Minecraft, muchas herramientas, armas y piezas de armadura comparten la misma forma de elaboración,
-              pero varían en el material utilizado. Cada material determina la durabilidad, velocidad o eficacia del
-              objeto. A continuación se presenta una lista organizada de los crafteos disponibles según el tipo de
-              objeto y el material empleado.</p>
+  <div class="container mb-5">
+    <!-- Intro & Tip -->
+    <div class="glass-panel">
+      <div class="row align-items-center">
+        <div class="col-md-7">
+          <h2 class="text-white">Domina el Crafteo</h2>
+          <p class="text-white">
+            El crafteo es el corazón de Minecraft. Mediante la combinación de recursos básicos, podrás crear
+            herramientas, armas y bloques funcionales que te permitirán avanzar y prosperar en el mundo.
+          </p>
+        </div>
+        <div class="col-md-5">
+          <div class="p-4 bg-dark bg-opacity-50 border-start border-success border-4">
+            <h4 class="text-success mb-2">Tip de Supervivencia</h4>
+            <p class="small text-white mb-3">
+              Una mesa de trabajo es esencial. Combina 4 tablones de madera en tu inventario para crearla.
+            </p>
+            <img src="../images/crafteos/Mesadecrafteo.png" class="img-fluid rounded shadow-sm" alt="Mesa de crafteo">
           </div>
-        </section>
-      </div>
-
-      <div class="col-md-4">
-        <section class="py-4">
-          <div class="container">
-            <h2>Tip de supervivencia</h2>
-            <p class="text-white">Una mesa de trabajo es esencial para desbloquear la mayoría de los crafteos. Coloca 4
-              bloques de madera en
-              el inventario y empieza a construir.</p>
-            <img src="../images/crafteos/Mesadecrafteo.png" class="img-fluid mt-3 rounded shadow" alt="Mesa de crafteo">
-          </div>
-        </section>
+        </div>
       </div>
     </div>
+  </div>
 
-    <div class="row">
-      <div class="col-md-12">
-        <article class="blog-post">
-          <section class="py-4">
-            <div class="row align-items-start mb-5">
-              <div class="col-md-6">
-                <h2>Picos</h2>
-                <br>
-                <ul class="text-white">
-                  <li><strong>Madera:</strong> 3 bloques de madera + 2 palos</li>
-                  <li><strong>Piedra:</strong> 3 bloques de piedra + 2 palos</li>
-                  <li><strong>Hierro:</strong> 3 lingotes de hierro + 2 palos</li>
-                  <li><strong>Oro:</strong> 3 lingotes de oro + 2 palos</li>
-                  <li><strong>Diamante:</strong> 3 diamantes + 2 palos</li>
-                  <li><strong>Netherite:</strong> Pico de diamante + 1 lingote de netherite</li>
-                </ul>
-              </div>
-              <div class="col-md-6 text-center">
-                <img src="../images/crafteos/picos.jpg" class="img-craft" alt="Crafteos de picos">
-              </div>
-            </div>
-            <div class="row align-items-start mb-5">
-              <div class="col-md-6">
-                <h2>Hachas</h2>
-                <br>
-                <ul class="text-white">
-                  <li><strong>Madera:</strong> 3 bloques de madera + 2 palos</li>
-                  <li><strong>Piedra:</strong> 3 bloques de piedra + 2 palos</li>
-                  <li><strong>Hierro:</strong> 3 lingotes de hierro + 2 palos</li>
-                  <li><strong>Oro:</strong> 3 lingotes de oro + 2 palos</li>
-                  <li><strong>Diamante:</strong> 3 diamantes + 2 palos</li>
-                  <li><strong>Netherite:</strong> Hacha de diamante + 1 lingote de netherite</li>
-                </ul>
-              </div>
-              <div class="col-md-6 text-center">
-                <img src="../images/crafteos/hachas.jpg" class="img-craft" alt="Crafteos de hachas">
-              </div>
+    <!-- Herramientas de Recolección -->
+    <section id="herramientas" class="container">
+      <div class="glass-panel">
+        <h2 class="text-center mb-5 text-white">Herramientas de Recolección</h2>
+        
+        <!-- Picos -->
+        <div class="row align-items-center mb-5">
+          <div class="col-md-6">
+            <h3 class="text-success">Picos</h3>
+            <p class="text-white small mb-4">Esenciales para minar piedra y minerales. El material define qué menas puedes extraer.</p>
+            <ul class="list-unstyled text-white">
+              <li class="mb-2">● <strong>Madera/Piedra:</strong> 3 bloques + 2 palos</li>
+              <li class="mb-2">● <strong>Hierro/Oro/Diamante:</strong> 3 lingotes + 2 palos</li>
+              <li class="mb-2">● <strong>Netherite:</strong> Pico de diamante + 1 lingote de netherite</li>
+            </ul>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="../images/crafteos/picos.jpg" class="img-fluid rounded shadow w-75" alt="Crafteos de picos">
+          </div>
+        </div>
 
-              <div class="row align-items-start mb-5">
-                <div class="col-md-6">
-                  <h2>Palas</h2>
-                  <br>
-                  <ul class="text-white">
-                    <li><strong>Madera:</strong> 1 bloque de madera + 2 palos</li>
-                    <li><strong>Piedra:</strong> 1 bloque de piedra + 2 palos</li>
-                    <li><strong>Hierro:</strong> 1 lingote de hierro + 2 palos</li>
-                    <li><strong>Oro:</strong> 1 lingote de oro + 2 palos</li>
-                    <li><strong>Diamante:</strong> 1 diamante + 2 palos</li>
-                    <li><strong>Netherite:</strong> Pala de diamante + 1 lingote de netherite</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 text-center">
-                  <img src="../images/crafteos/palas.jpg" class="img-craft" alt="Crafteos de palas">
-                </div>
-              </div>
+        <hr class="border-secondary my-5">
+
+        <!-- Hachas y Palas -->
+        <div class="row">
+          <div class="col-md-6 mb-5">
+            <h3 class="text-success">Hachas</h3>
+            <p class="text-white small mb-3">Para talar madera rápidamente.</p>
+            <ul class="list-unstyled text-white">
+              <li>● 3 Materiales + 2 palos</li>
+            </ul>
+            <img src="../images/crafteos/hachas.jpg" class="img-fluid rounded shadow mt-3 w-100" alt="Crafteos de hachas">
+          </div>
+          <div class="col-md-6">
+            <h3 class="text-success">Palas</h3>
+            <p class="text-white small mb-3">Para tierra, arena y grava.</p>
+            <ul class="list-unstyled text-white">
+              <li>● 1 Material + 2 palos</li>
+            </ul>
+            <img src="../images/crafteos/palas.jpg" class="img-fluid rounded shadow mt-3 w-100" alt="Crafteos de palas">
+          </div>
+        </div>
+      </div>
+    </section>
 
               <br>
 
-              <div class="row align-items-start mb-5">
-                <div class="col-md-6">
-                  <h2>Espadas</h2>
-                  <br>
-                  <ul class="text-white">
-                    <li><strong>Madera:</strong> 2 bloques de madera + 1 palo</li>
-                    <li><strong>Piedra:</strong> 2 bloques de piedra + 1 palo</li>
-                    <li><strong>Hierro:</strong> 2 lingotes de hierro + 1 palo</li>
-                    <li><strong>Oro:</strong> 2 lingotes de oro + 1 palo</li>
-                    <li><strong>Diamante:</strong> 2 diamantes + 1 palo</li>
-                    <li><strong>Netherite:</strong> Espada de diamante + 1 lingote de netherite</li>
-                    <li><strong>Arco:</strong> 3 palos + 3 cuerdas</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 text-center">
-                  <img src="../images/crafteos/espadas.png" class="img-craft" alt="Crafteos de espadas">
-                </div>
-              </div>
+    <!-- Equipo de Combate -->
+    <section id="combate" class="container">
+      <div class="glass-panel">
+        <h2 class="text-center mb-5 text-white">Equipo de Combate</h2>
+        
+        <div class="row g-4">
+          <!-- Espadas -->
+          <div class="col-md-6">
+            <h3 class="text-danger">Espadas y Arcos</h3>
+            <p class="text-white small mb-4">Tu defensa principal contra los peligros nocturnos.</p>
+            <ul class="list-unstyled text-white mb-4">
+              <li class="mb-2">● <strong>Espada:</strong> 2 materiales + 1 palo</li>
+              <li class="mb-2">● <strong>Arco:</strong> 3 palos + 3 cuerdas</li>
+            </ul>
+            <img src="../images/crafteos/espadas.png" class="img-fluid rounded shadow" alt="Crafteos de espadas">
+          </div>
 
-              <div class="row align-items-start mb-5">
-                <div class="col-md-6">
-                  <h2>Armaduras</h2>
-                  <h3>Casco</h3>
-                  <ul class="text-white">
-                    <li><strong>Cuero:</strong> 5 unidades de cuero</li>
-                    <li><strong>Hierro:</strong> 5 lingotes de hierro</li>
-                    <li><strong>Oro:</strong> 5 lingotes de oro</li>
-                    <li><strong>Diamante:</strong> 5 diamantes</li>
-                    <li><strong>Netherite:</strong> Casco de diamante + 1 lingote de netherite</li>
-                  </ul>
-                  <h3>Pechera</h3>
-                  <ul class="text-white">
-                    <li><strong>Cuero:</strong> 8 unidades de cuero</li>
-                    <li><strong>Hierro:</strong> 8 lingotes de hierro</li>
-                    <li><strong>Oro:</strong> 8 lingotes de oro</li>
-                    <li><strong>Diamante:</strong> 8 diamantes</li>
-                    <li><strong>Netherite:</strong> Pechera de diamante + 1 lingote de netherite</li>
-                  </ul>
-                  <h3>Pantalones</h3>
-                  <ul class="text-white">
-                    <li><strong>Cuero:</strong> 7 unidades de cuero</li>
-                    <li><strong>Hierro:</strong> 7 lingotes de hierro</li>
-                    <li><strong>Oro:</strong> 7 lingotes de oro</li>
-                    <li><strong>Diamante:</strong> 7 diamantes</li>
-                    <li><strong>Netherite:</strong> Pantalones de diamante + 1 lingote de netherite</li>
-                  </ul>
-                  <h3>Botas</h3>
-                  <ul class="text-white">
-                    <li><strong>Cuero:</strong> 4 unidades de cuero</li>
-                    <li><strong>Hierro:</strong> 4 lingotes de hierro</li>
-                    <li><strong>Oro:</strong> 4 lingotes de oro</li>
-                    <li><strong>Diamante:</strong> 4 diamantes</li>
-                    <li><strong>Netherite:</strong> Botas de diamante + 1 lingote de netherite</li>
-                  </ul>
-                </div>
-                <div class="col-md-6 text-center">
-                  <img src="../images/crafteos/armaduras.png" class="img-craft" alt="Crafteos de armaduras">
-                </div>
-              </div>
-
-              <div class="container">
-                <div class="row">
-
-                  <div class="col-lg-6 mb-4">
-                    <h2 class="mb-4">Crafteos Utilitarios</h2>
-                    <h3>Para que se usan los bloques utilitarios</h3>
-                    <p class="text-white">En Minecraft, existen bloques especiales que cumplen funciones avanzadas más allá de la
-                      construcción básica. A estos se les conoce como <strong>bloques utilitarios</strong>. Sirven para
-                      cocinar, encantar, mejorar herramientas, automatizar procesos o asignar profesiones a los
-                      aldeanos.
-                      Algunos permiten interactuar con ítems de manera especializada (como el telar o el cortapiedras),
-                      mientras que otros son clave para el progreso en el juego (como el alto horno o la mesa de
-                      herrería).</p>
-
-                    <p class="text-white">Estos bloques se colocan como cualquier otro y se activan haciendo clic derecho sobre ellos.
-                      Muchos
-                      también son necesarios para comerciar con aldeanos o automatizar procesos con redstone.</p>
-
-                    <ul class="text-white">
-                      <li><strong>Alto horno:</strong> Funde minerales más rápido que un horno normal.</li>
-                      <li><strong>Ahumador:</strong> Cocina alimentos el doble de rápido.</li>
-                      <li><strong>Compostador:</strong> Convierte materia vegetal en polvo de hueso.</li>
-                      <li><strong>Soporte para pociones:</strong> Necesario para elaborar pociones.</li>
-                      <li><strong>Lectern (atril):</strong> Permite leer libros y sirve para asignar profesiones.</li>
-                      <li><strong>Mesa de herrería:</strong> Mejora herramientas a netherite.</li>
-                      <li><strong>Cartografía:</strong> Duplica mapas y extiende su área.</li>
-                      <li><strong>Barrel (barril):</strong> Funciona como cofre pero se abre con bloques encima.</li>
-                      <li><strong>Loom (telar):</strong> Diseña estandartes personalizados.</li>
-                      <li><strong>Stonecutter:</strong> Alternativa a la mesa de trabajo para bloques de piedra.</li>
-                      <li><strong>Linternas, sillas, molinos, marcos, macetas, fogatas:</strong> Añaden funcionalidad y
-                        estética al entorno.</li>
-                    </ul>
-                  </div>
-
-                  <div class="col-lg-6 d-flex justify-content-center align-items-center">
-                    <img src="../images/crafteos/crafteosutilitarios.jpeg" alt="Bloques utilitarios en Minecraft"
-                      class="img-fluid rounded shadow w-100" style="max-width: 600px;">
-                  </div>
-          </section>
-
+          <!-- Armaduras -->
+          <div class="col-md-6">
+            <h3 class="text-danger">Protección</h3>
+            <p class="text-white small mb-4">Usa cuero, hierro, oro o diamante para protegerte.</p>
+            <div class="row g-2 text-white small">
+              <div class="col-6">● Casco: 5 u.</div>
+              <div class="col-6">● Pechera: 8 u.</div>
+              <div class="col-6">● Pantalones: 7 u.</div>
+              <div class="col-6">● Botas: 4 u.</div>
+            </div>
+            <img src="../images/crafteos/armaduras.png" class="img-fluid rounded shadow mt-3" alt="Crafteos de armaduras">
+          </div>
+        </div>
       </div>
-    </div>
     </section>
-    </article>
-  </div>
-  </div>
-  </div>
+
+    <!-- Bloques Utilitarios -->
+    <section id="utilitarios" class="container">
+      <div class="glass-panel">
+        <h2 class="text-center mb-5 text-white">Bloques de Utilidad</h2>
+        <div class="row align-items-center">
+          <div class="col-md-6">
+            <p class="text-white">
+              Muchos bloques tienen funciones avanzadas más allá de la construcción. Estos incluyen mesas de profesión para aldeanos y estaciones de trabajo avanzado.
+            </p>
+            <div class="row row-cols-2 g-3 mt-3 text-white small">
+              <div class="col">● Alto horno</div>
+              <div class="col">● Ahumador</div>
+              <div class="col">● Atril</div>
+              <div class="col">● Telar</div>
+              <div class="col">● Mesa Herrería</div>
+              <div class="col">● Soporte Pociones</div>
+            </div>
+          </div>
+          <div class="col-md-6 text-center">
+            <img src="../images/crafteos/crafteosutilitarios.jpeg" alt="Bloques utilitarios" class="img-fluid rounded shadow w-100">
+          </div>
+        </div>
+      </div>
+    </section>
 
   <footer class="py-4 text-center">
     <div class="container">

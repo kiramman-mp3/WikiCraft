@@ -3,8 +3,9 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Conoce a todos los mobs de Minecraft. Desde los amigables aldeanos hasta los peligrosos Creepers y el Ender Dragon.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description"
+        content="Conoce a todos los mobs de Minecraft. Desde los amigables aldeanos hasta los peligrosos Creepers y el Ender Dragon.">
     <title>WikiCraft | Mobs - Criaturas de Minecraft</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="icon" href="../images/favicon.png" type="image/x-icon">
@@ -33,161 +34,94 @@
         </div>
     </nav>
 
-    <!-- Sección principal de Mobs -->
-    <section class="py-5 text-center text-white">
-        <div class="container">
-            <h1 class="display-4">Mobs en Minecraft</h1>
-            <p class="lead text-center">Descubre los mobs más interesantes y sus características.</p>
+    <!-- Hero Section -->
+    <section class="hero-section text-center text-white active">
+        <div class="container py-5">
+            <div class="floating">
+                <h1 class="display-3 mb-3">Bestiario</h1>
+                <p class="lead mx-auto" style="max-width: 800px;">
+                    Tu guía esencial para conocer a los habitantes de este mundo. Aprende a distinguirlos, dominarlos o simplemente sobrevivir a sus encuentros.
+                </p>
+            </div>
+            
+            <div class="mt-5 d-flex justify-content-center gap-3 flex-wrap">
+                <a href="#hostiles" class="btn btn-minecraft">Enemigos Hostiles</a>
+                <a href="#neutrales" class="btn btn-minecraft">Neutrales</a>
+                <a href="#nether" class="btn btn-minecraft">Peligros del Nether</a>
+            </div>
         </div>
     </section>
-    <br>
-    <!-- Sección de Mobs -->
-    <section id="mobs-list">
-        <div class="container my-5">
-            <div class="row g-4">
+
+    <!-- Enemigos Hostiles -->
+    <section id="hostiles" class="container">
+        <div class="glass-panel">
+            <h2 class="text-center mb-5 text-white">Enemigos Hostiles</h2>
+            <div class="row g-4 mb-5">
                 <!-- Creeper -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Creeper</h2>
-                            <!-- Imagen del mob -->
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/creeper.png" alt="Creeper" class="img-fluid fixed-image">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Creeper</h5>
+                            <img src="../images/mobs/creeper.png" alt="Creeper" class="card-icon">
+                            <p class="card-text">Explosivo y sigiloso. Su sonido característico es la última advertencia.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-danger border-4">
+                                <small class="text-white"><strong>TIP:</strong> Escucharás un siseo metálico segundos antes de la explosión. ¡Corre!</small>
                             </div>
-                            <p class="card-text">Un mob explosivo que te atacará si te acercas demasiado. Los Creepers
-                                son enemigos sigilosos que explotan cuando están cerca del jugador. Son peligrosos si no
-                                se detectan a tiempo.</p>
-                            <p class="card-text">Consejo: Mantén tu distancia o usa un arco para derrotarlos sin
-                                acercarte demasiado.</p>
                         </div>
                     </div>
                 </div>
-
                 <!-- Zombie -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Zombie</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/zombie.png" alt="Zombie" class="img-fluid fixed-image">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Zombie</h5>
+                            <img src="../images/mobs/zombie.png" alt="Zombie" class="card-icon">
+                            <p class="card-text">Criaturas nocturnas que atacan en grupo al detectar humanos.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-danger border-4">
+                                <small class="text-white"><strong>TIP:</strong> Los zombies son lentos. Mantén el movimiento y atácalos a distancia.</small>
                             </div>
-                            <p class="card-text">Un mob común que aparece en la oscuridad, siempre busca a los
-                                jugadores. Los zombies caminan hacia los jugadores y los atacan al contacto.</p>
-                            <p class="card-text">Consejo: No son muy rápidos, pero pueden ser molestos en grandes
-                                cantidades. Usa una espada o un arco para enfrentarlos.</p>
                         </div>
                     </div>
                 </div>
-
-                <!-- Enderman -->
+                <!-- Esqueleto -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Enderman</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/enderman.png" alt="Enderman" class="img-fluid fixed-image">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Esqueleto</h5>
+                            <img src="../images/mobs/esqueleto.png" alt="Esqueleto" class="card-icon">
+                            <p class="card-text">Arqueros precisos y rápidos que no dudarán en dispararte desde lejos.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-danger border-4">
+                                <small class="text-white"><strong>TIP:</strong> Usa un escudo para desviar sus flechas y cerrar la distancia.</small>
                             </div>
-                            <p class="card-text">Un mob neutral que se vuelve hostil si lo miras directamente a los
-                                ojos. Los Endermen se teletransportan cuando están cerca del jugador.</p>
-                            <p class="card-text">Consejo: Evita mirar directamente a sus ojos. Si lo haces, prepárate
-                                para luchar. Puedes atacarlos con un arco o con una espada.</p>
                         </div>
                     </div>
                 </div>
-
+            </div>
+            
+            <div class="row g-4">
                 <!-- Spider -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Spider</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/spider.png" alt="Spider" class="img-fluid fixed-image">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Spider</h5>
+                            <img src="../images/mobs/spider.png" alt="Spider" class="card-icon">
+                            <p class="card-text">Rápida y capaz de escalar cualquier superficie vertical.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-danger border-4">
+                                <small class="text-white"><strong>TIP:</strong> Son dóciles durante el día, pero extremadamente agresivas en la oscuridad.</small>
                             </div>
-                            <p class="card-text">Una araña que puede moverse rápidamente y escalar paredes. Aunque no es
-                                muy fuerte, su habilidad para escalar superficies la hace difícil de evitar.</p>
-                            <p class="card-text">Consejo: Usa una espada para derrotarlas rápidamente o coloca bloques
-                                para evitar que escalen.</p>
                         </div>
                     </div>
                 </div>
-
                 <!-- Witch -->
                 <div class="col-md-4">
                     <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Witch</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/witch.png" alt="Witch" class="img-fluid fixed-image">
+                        <div class="card-body">
+                            <h5 class="card-title text-danger">Witch</h5>
+                            <img src="../images/mobs/witch.png" alt="Witch" class="card-icon">
+                            <p class="card-text">Maestra de la alquimia negativa que te lanzará efectos dañinos.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-danger border-4">
+                                <small class="text-white"><strong>TIP:</strong> Lanza flechas desde lejos; enfrentarlas de cerca es un suicidio.</small>
                             </div>
-                            <p class="card-text">Una bruja que lanza pociones de efectos negativos a los jugadores.
-                                Puede curarse a sí misma y a veces invoca otros mobs.</p>
-                            <p class="card-text">Consejo: Mantén tu distancia y usa un arco. Si te enfrentas a ella de
-                                cerca, lleva pociones de curación o resistencia.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Zombie Pigman -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Zombie Pigman</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/zombie_pigman.png" alt="Zombie Pigman"
-                                    class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un mob neutral en el Nether, pero se vuelve hostil si atacas a uno de
-                                ellos. Su ataque es rápido y peligroso cuando están en grupo.</p>
-                            <p class="card-text">Consejo: Si no atacas a uno, no tendrás problemas. Evita el combate en
-                                masa, ya que son más peligrosos en grupos.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Blaze -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Blaze</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/blaze.png" alt="Blaze" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un mob del Nether que lanza bolas de fuego. ¡Ten cuidado con su ataque
-                                a distancia!</p>
-                            <p class="card-text">Consejo: Usa un arco con flechas de fuego o lucha a corta distancia con
-                                cuidado. Tienes que esquivar sus ataques a distancia.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Ghast -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Ghast</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/ghast.png" alt="Ghast" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un gigantesco mob volador en el Nether que dispara bolas de fuego
-                                explosivas.</p>
-                            <p class="card-text">Consejo: El Ghast es difícil de vencer en combate directo, pero puedes
-                                reflejar sus bolas de fuego con un bloque o usar un arco.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Skeleton -->
-                <div class="col-md-4">
-                    <div class="card shadow-sm">
-                        <div class="card-body d-flex flex-column">
-                            <h2 class="text-center">Esqueleto</h2>
-                            <div class="image-container d-flex justify-content-center">
-                                <img src="../images/mobs/esqueleto.png" alt="Esqueleto" class="img-fluid fixed-image">
-                            </div>
-                            <p class="card-text">Un mob de largo alcance que dispara flechas. Son fáciles de encontrar
-                                en la oscuridad.</p>
-                            <p class="card-text">Consejo: Usa un escudo para bloquear sus flechas o un arco para
-                                derribarlos desde lejos.</p>
                         </div>
                     </div>
                 </div>
@@ -195,6 +129,75 @@
         </div>
     </section>
 
+    <!-- Criaturas Neutrales -->
+    <section id="neutrales" class="container">
+        <div class="glass-panel">
+            <h2 class="text-center mb-5 text-white">Criaturas Neutrales</h2>
+            <div class="row g-4">
+                <!-- Enderman -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-info">Enderman</h5>
+                            <img src="../images/mobs/enderman.png" alt="Enderman" class="card-icon">
+                            <p class="card-text">Teletransportadores solitarios que odian ser observados.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-info border-4">
+                                <small class="text-white"><strong>TIP:</strong> Nunca los mires directamente a los ojos. El agua es su única debilidad.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Zombie Pigman -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-info">Pigman</h5>
+                            <img src="../images/mobs/zombie_pigman.png" alt="Pigman" class="card-icon">
+                            <p class="card-text">Habitantes del Nether que atacan solo si son provocados.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-info border-4">
+                                <small class="text-white"><strong>TIP:</strong> ¡Ten cuidado! Si golpeas a uno, toda la horda vendrá por ti.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Peligros del Nether -->
+    <section id="nether" class="container">
+        <div class="glass-panel">
+            <h2 class="text-center mb-5 text-white">Peligros del Nether</h2>
+            <div class="row g-4">
+                <!-- Blaze -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Blaze</h5>
+                            <img src="../images/mobs/blaze.png" alt="Blaze" class="card-icon">
+                            <p class="card-text">Entidades de fuego que custodian las fortalezas del Nether.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-warning border-4">
+                                <small class="text-white"><strong>TIP:</strong> Las bolas de nieve les infligen un daño masivo. ¡Tenlas a mano!</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Ghast -->
+                <div class="col-md-4">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <h5 class="card-title text-warning">Ghast</h5>
+                            <img src="../images/mobs/ghast.png" alt="Ghast" class="card-icon">
+                            <p class="card-text">Gigantes flotantes cuyos gritos anuncian una bola de fuego inminente.</p>
+                            <div class="p-3 bg-dark bg-opacity-50 mt-3 border-start border-warning border-4">
+                                <small class="text-white"><strong>TIP:</strong> Puedes "batear" su bola de fuego devolviéndola con un golpe de espada.</small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <footer class="py-4 text-center">
         <div class="container">
@@ -204,7 +207,7 @@
 
     <!-- Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-    <script type="module" src="../controllers/mobscontroller.js"></script>
+    <script type="module" src="../main.js"></script>
 </body>
 
 </html>

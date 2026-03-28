@@ -50,69 +50,84 @@
   </nav>
 
 
-  <section class="py-5 text-center text-white">
-    <div class="container">
-      <h1 class="display-4">¡Bienvenido a WikiCraft!</h1>
-      <p class="lead text-center">Todo lo que necesitas saber para sobrevivir y construir en el mundo de Minecraft.</p>
+  <section class="hero-section text-center text-white reveal">
+    <div class="container py-5">
+      <div class="floating">
+        <h1 class="display-3 mb-3">¡Bienvenido a WikiCraft!</h1>
+        <p class="lead mx-auto" style="max-width: 800px;">
+          Tu portal definitivo hacia el reino de los bloques. Domina el arte de la supervivencia, la construcción y el combate con nuestra guía experta.
+        </p>
+      </div>
+      <div class="mt-5">
+        <a href="#contenidos" class="btn btn-minecraft btn-lg">Explorar Ahora</a>
+      </div>
     </div>
   </section>
 
-  <div class="container my-5">
-    <div class="row g-4">
-      <!-- Fila 1: 3 Cards -->
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h2 class="card-title">Bloques</h2>
-            <p class="card-text">Descubre los materiales esenciales para la construcción, desde bloques básicos hasta
-              los más poderosos. Aprende a utilizarlos en tus proyectos y crea estructuras épicas.</p>
-            <a href="views/bloques.html" class="btn btn-minecraft">Ver Bloques</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h2 class="card-title">Mobs</h2>
-            <p class="card-text">Conoce las criaturas que habitan el mundo de Minecraft. Ya sea para enfrentarlas o para
-              aprovechar sus recursos, cada mob tiene algo que ofrecerte.</p>
-            <a href="views/mobs.html" class="btn btn-minecraft">Ver Mobs</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-md-4">
-        <div class="card shadow-sm h-100">
-          <div class="card-body">
-            <h2 class="card-title">Crafteos</h2>
-            <p class="card-text">Aprende las recetas para crear herramientas y armas esenciales. ¡El crafteo es clave
-              para avanzar y sobrevivir en el mundo de Minecraft!</p>
-            <a href="views/crafteos.html" class="btn btn-minecraft">Ver Crafteos</a>
-          </div>
-        </div>
-      </div>
-
-      <!-- Fila 2: 2 Cards centradas con separación -->
-      <div class="w-100 d-flex justify-content-center">
-        <div class="col-md-4 me-4">
-          <div class="card shadow-sm h-100">
-            <div class="card-body">
-              <h2 class="card-title">Alquimia</h2>
-              <p class="card-text">Descubre las pociones mágicas y sus efectos. Aprende a crear pociones que te darán
-                ventajas en combate o exploración.</p>
-              <a href="views/alquimia.html" class="btn btn-minecraft">Ver Pociones</a>
+  <div id="contenidos" class="container reveal">
+    <div class="glass-panel">
+      <div class="row g-5 justify-content-center">
+        <!-- Bloques (Featured) -->
+        <div class="col-lg-8">
+          <div class="card shadow-sm card-featured">
+            <div class="card-body text-center">
+              <div>
+                <h2 class="card-title mb-3">Bloques</h2>
+                <p class="card-text">Descubre los materiales esenciales para la construcción, desde bloques básicos hasta los más poderosos. Aprende a utilizarlos en tus proyectos y crea estructuras épicas.</p>
+                <a href="views/bloques.html" class="btn btn-minecraft mt-3">Ver Bloques</a>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4">
-          <div class="card shadow-sm h-100">
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Mobs</h2>
+              <p class="card-text">Conoce las criaturas que habitan el mundo de Minecraft. Ya sea para enfrentarlas o para
+                aprovechar sus recursos, cada mob tiene algo que ofrecerte.</p>
+              <div class="mt-auto">
+                <a href="views/mobs.html" class="btn btn-minecraft w-100">Ver Mobs</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Crafteos</h2>
+              <p class="card-text">Aprende las recetas para crear herramientas y armas esenciales. ¡El crafteo es clave
+                para avanzar y sobrevivir en el mundo de Minecraft!</p>
+              <div class="mt-auto">
+                <a href="views/crafteos.html" class="btn btn-minecraft w-100">Ver Crafteos</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h2 class="card-title">Alquimia</h2>
+              <p class="card-text">Descubre las pociones mágicas y sus efectos. Aprende a crear pociones que te darán
+                ventajas en combate o exploración.</p>
+              <div class="mt-auto">
+                <a href="views/alquimia.html" class="btn btn-minecraft w-100">Ver Pociones</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4">
+          <div class="card shadow-sm">
             <div class="card-body">
               <h2 class="card-title">Comunidad</h2>
               <p class="card-text">Conoce las historias y aventuras creadas por otros jugadores. ¡Explora mundos y
                 relatos inspiradores de la comunidad!</p>
-              <a href="views/comunidad.html" class="btn btn-minecraft">Ver Historias</a>
+              <div class="mt-auto">
+                <a href="views/comunidad.html" class="btn btn-minecraft w-100">Ver Historias</a>
+              </div>
             </div>
           </div>
         </div>
@@ -120,10 +135,15 @@
     </div>
   </div>
 
-  <section class="minecraft-section py-5 text-center text-white">
+  <section class="minecraft-section reveal">
     <div class="container">
-      <h2 class="text-center mb-4">Ultimas Noticias de Minecraft</h2>
-      <div id="minecraft-news" class="row g-4"></div>
+      <div class="glass-panel text-center">
+        <div class="mb-5">
+          <h2 class="text-center">Noticias de la Comunidad</h2>
+          <p class="text-white text-center">Conoce las noticias de la comunidad de Minecraft en Reddit</p>
+        </div>
+        <div id="minecraft-news" class="row g-4 justify-content-center"></div>
+      </div>
     </div>
   </section>
 

@@ -45,90 +45,87 @@
     </div>
   </nav>
 
-  <section class="py-5 text-center text-white" fill="#eceeef">
-    <div class="container">
-      <h1 class="display-4">Las pociones en Minecraft</h1>
-      <p class="lead text-center">Todo lo que necesitas saber para sobrevivir y construir en el mundo de Minecraft.</p>
+  <!-- Hero Section -->
+  <section class="hero-section text-center text-white active">
+    <div class="container py-5">
+      <div class="floating">
+        <h1 class="display-3 mb-3">Laboratorio</h1>
+        <p class="lead mx-auto" style="max-width: 800px;">
+          El arte de la destilación a tu alcance. Descubre cómo transformar ingredientes en poderosos elixires para dominar cualquier situación.
+        </p>
+      </div>
+
+      <div class="mt-5 d-flex justify-content-center gap-3 flex-wrap">
+        <a href="#fundamentos" class="btn btn-minecraft">Fundamentos</a>
+        <a href="#pociones" class="btn btn-minecraft">Pociones</a>
+        <a href="#modificadores" class="btn btn-minecraft">Modificadores</a>
+      </div>
     </div>
   </section>
 
   <br>
 
-  <div class="container main-content-section">
-    <div class="row g-5 text-white-soft text-justificate" style="margin: 0 15px;">
-      <div class="col-md-8">
-        <article class="blog-post">
-          <h2 class="py-4">La alquimia en Minecraft</h2>
-          <p>Mediante la alquimia, es posible elaborar pociones que aumenten la velocidad, mejoren la regeneración,
-            permitan respirar bajo el agua, dañen enemigos, entre muchos otros efectos.
-            Las pociones pueden consumirse directamente, lanzarse o aplicarse de manera persistente en un área.</p>
-          <p>El sistema de alquimia combina exploración, recolección de recursos y planificación, ya que muchos
-            ingredientes requieren que el jugador viaje a distintos biomas o dimensiones,
-            prepare cultivos especiales o derrote criaturas peligrosas para obtener materiales valiosos.</p>
-          <p>La alquimia es una de las disciplinas fundamentales de Minecraft, ocupando un lugar tan importante como los
-            circuitos de redstone o los encantamientos,
-            y ofrece a los jugadores una amplia variedad de estrategias tanto en exploración como en combate.</p>
-          <hr>
-          <h2 class="py-4">Instrumentos de alquimia</h2>
-          <p>La práctica de la alquimia en Minecraft depende de varios instrumentos fundamentales que permiten preparar,
-            modificar y aplicar pociones de forma efectiva.
-            Estos elementos interactúan entre sí durante el proceso de elaboración y son indispensables para que las
-            pociones puedan crearse y utilizarse correctamente, para dichos procesos se necesitara principalmente un
-            soporte para pociones,
-            frascos con agua, una mesa de fabricacion y un caldero en caso de que se quiera encantar flechas.
+  <!-- Fundamentos e Instrumentos -->
+  <section id="fundamentos" class="container">
+    <div class="glass-panel">
+      <div class="row g-5">
+        <div class="col-md-7">
+          <h2 class="text-white">Fundamentos Alquímicos</h2>
+          <p class="text-white">
+            La alquimia permite elaborar elixires que alteran tus capacidades: desde respirar bajo el agua hasta obtener una fuerza sobrehumana. Es una disciplina que requiere exploración y precisión en la mezcla de materiales.
           </p>
-          <img src="../images/alquimiapng/Instrumentos-necesarios.png"
-            alt="Imagen de los instrumentos necesarios para las pociones"
-            class="img-fluid mt-3 rounded shadow center-img">
-          <hr>
-          <h2 class="py-4">Interfaz del soporte para pociones.</h2>
-          <p>Al hacer clic derecho sobre un soporte para pociones, se abre una interfaz con cinco espacios principales:
+          <h4 class="text-info mt-4">Instrumentos Esenciales</h4>
+          <p class="text-white small">
+            Necesitarás un **Soporte de Pociones**, frascos con agua, y **Polvo de Blaze** como combustible indispensable para la destilación.
           </p>
-          <ol>
-            <li>Tres espacios inferiores (en la parte baja de la interfaz): están destinados a colocar botellas de agua,
-              pociones base o pociones ya elaboradas. Puedes llenar estos espacios con hasta tres botellas a la vez, lo
-              que permite crear o modificar tres pociones simultáneamente. </li>
-            <li>Espacio superior: aquí se coloca el ingrediente principal que determinará el efecto de la poción. Este
-              ingrediente se aplicará a todos los frascos que se encuentren en los espacios inferiores, siempre y cuando
-              sean compatibles.</li>
-            <li>Espacio lateral izquierdo: reservado exclusivamente para el polvo de blaze, que funciona como
-              combustible
-              para el proceso de elaboración. Cada unidad de polvo de blaze permite realizar múltiples operaciones, por
-              lo que es una fuente eficiente de energía para la alquimia.</li>
+        </div>
+        <div class="col-md-5 text-center">
+          <img src="../images/alquimiapng/Instrumentos-necesarios.png" alt="Instrumentos" class="img-fluid rounded shadow-sm">
+        </div>
+      </div>
+      
+      <hr class="border-secondary my-5">
+
+      <div class="row align-items-center">
+        <div class="col-md-5 order-md-2">
+          <h3 class="text-info">Interfaz de Destilación</h3>
+          <ol class="text-white small">
+            <li class="mb-2">Espacios Inferiores: Para hasta 3 frascos.</li>
+            <li class="mb-2">Espacio Superior: Para el ingrediente reactivo.</li>
+            <li class="mb-2">Espacio Combustible: Para el polvo de blaze.</li>
           </ol>
-          <img src="../images/alquimiapng/intSoporte.png" alt="Imagen de los instrumentos necesarios para las pociones"
-            class="img-fluid mt-3 rounded shadow center-img">
-          <hr>
-          <h2 class="py-4">Ingredientes base</h2>
-          <p>Los ingredientes base son aquellos que se utilizan al inicio del proceso de destilación, colocándolos sobre
-            botellas de agua para obtener una poción base sin efectos, necesaria para elaborar pociones con efecto.
+        </div>
+        <div class="col-md-7 order-md-1 text-center">
+          <img src="../images/alquimiapng/intSoporte.png" alt="Interfaz Soporte" class="img-fluid rounded shadow-sm">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ingredientes Base -->
+  <section class="container">
+    <div class="glass-panel">
+      <h2 class="text-center mb-4 text-white">Ingredientes de Destilación</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6">
+          <p class="text-white">
+            La **Verruga del Nether** es la base de casi todo; genera la "Poción Rara". Otros ingredientes como el azúcar o el polvo de blaze imbuirán efectos específicos.
           </p>
-          <p> La verruga del Nether es el ingrediente base principal; al ser destilada en frascos con agua, produce la
-            poción rara, utilizada para crear la mayoría de las pociones con efecto.</p>
-          <img src="../images/alquimiapng/Ingredientes-base.png"
-            alt="Imagen de los instrumentos necesarios para las pociones"
-            class="img-fluid mt-3 rounded shadow center-img">
-          <p></p>
-          <p>El redstone, la vara de breeze, la piedra, el bloque de slime, la telaraña, la bola de magma, la pata de
-            conejo,
-            el azúcar, la sandía brillante, el ojo de araña, la lágrima de ghast y el polvo de blaze también pueden
-            destilarse
-            en frascos con agua, generando la poción banal, que actualmente no tiene utilidad práctica en alquimia.</p>
-          <hr>
-          <h2>Ingredientes de efecto</h2>
-          <p>Los ingredientes de efecto se utilizan para imbuir a la poción rara con un efecto específico, sin alterar
-            su duración
-            ni su intensidad. Si alguno de estos ingredientes se destila directamente en una botella de agua —sin una
-            poción base, el resultado será una poción banal. La única excepción es la zanahoria dorada, que no puede ser
-            destilada
-            directamente en agua para crear una poción.
-          </p>
-          <ul>
-        </article>
-        <h3> Tabla pociones</h3>
-        <table class="table">
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="../images/alquimiapng/Ingredientes-base.png" alt="Bases" class="img-fluid rounded shadow-sm">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Efectos de Pociones -->
+  <section id="pociones" class="container">
+    <div class="glass-panel">
+      <h2 class="text-center mb-5 text-white">Efectos Maestros</h2>
+      <div class="table-responsive">
+        <table class="table table-dark table-hover mb-0">
           <thead>
-            <tr style="color: aliceblue;">
+            <tr>
               <th>Ingrediente</th>
               <th>Efecto</th>
               <th>Descripción</th>
@@ -136,140 +133,105 @@
           </thead>
           <tbody>
             <tr>
-              <td><img src="../images/alquimiapng/azucar.png"></td>
-              <td>Velocidad </td>
-              <td>Otorga un aumento temporal en la velocidad de movimiento.
-              </td>
+              <td><img src="../images/alquimiapng/azucar.png" class="img-fluid" width="32"></td>
+              <td class="text-info">Velocidad</td>
+              <td class="small">Aumento temporal en la velocidad de movimiento.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/pataConejo.png"></td>
-              <td>Super salto</td>
-              <td>Aumenta temporalmente la distancia y altura de salto.</td>
+              <td><img src="../images/alquimiapng/pataConejo.png" width="32"></td>
+              <td class="text-info">Super salto</td>
+              <td class="small">Aumenta la distancia y altura de salto.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/polvoBlaze.png"></td>
-              <td>Fuerza</td>
-              <td>Otorga un aumento temporal al daño cuerpo a cuerpo.</td>
+              <td><img src="../images/alquimiapng/polvoBlaze.png" width="32"></td>
+              <td class="text-info">Fuerza</td>
+              <td class="small">Aumento al daño cuerpo a cuerpo.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/melonOro.png"></td>
-              <td>Curación instantánea</td>
-              <td>Restaura instantáneamente parte de la salud del usuario.</td>
+              <td><img src="../images/alquimiapng/melonOro.png" width="32"></td>
+              <td class="text-info">Curación</td>
+              <td class="small">Restaura instantáneamente parte de la salud.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/lagrimaGhast.png"></td>
-              <td>regeneración</td>
-              <td>Restaura constantemente la salud del usuario durante la duración del efecto.</td>
+              <td><img src="../images/alquimiapng/pezGlobo.png" width="32"></td>
+              <td class="text-info">Respiración</td>
+              <td class="small">Permite respirar bajo el agua.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/pezGlobo.png"></td>
-              <td>Respiración</td>
-              <td>Permite respirar bajo el agua durante un tiempo limitado.</td>
+              <td><img src="../images/alquimiapng/cremaMagma.png" width="32"></td>
+              <td class="text-info">Resistencia Fuego</td>
+              <td class="small">Protege contra el fuego y la lava.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/cremaMagma.png"></td>
-              <td>Resistencia al fuego</td>
-              <td>Protege contra el daño de fuego y lava.</td>
+              <td><img src="../images/alquimiapng/zanOro.png" width="32"></td>
+              <td class="text-info">Visión Nocturna</td>
+              <td class="small">Permite ver claramente en la oscuridad.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/zanOro.png"></td>
-              <td>Visión Nocturna</td>
-              <td>Permite ver claramente en condiciones de oscuridad total.</td>
+              <td><img src="../images/alquimiapng/membranaFant.png" width="32"></td>
+              <td class="text-info">Caída lenta</td>
+              <td class="small">Reduce velocidad de caída y previene daño.</td>
             </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/cascoTortuga.png"></td>
-              <td>Lentitud Resistencia</td>
-              <td>Reduce temporalmente la velocidad
-                de movimiento y el daño recibido.</td>
-            </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/membranaFant.png"></td>
-              <td>Caída lenta</td>
-              <td>Reduce la velocidad de caída y
-                previene el daño por impacto.</td>
-            </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/cargaViento.png"></td>
-              <td>Vendaval</td>
-              <td> Al morir, el usuario libera una onda de choque
-                que empuja a los enemigos cercanos.</td>
-            </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/telaraña.png"></td>
-              <td>Tejedura</td>
-              <td>Al morir, el usuario deja una telaraña en su posición.
-              </td>
-            </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/bloqueSlime.png"></td>
-              <td>Mucosidad</td>
-              <td>Mientras dura el efecto, existe una probabilidad
-                de que, al morir, el usuario genere un slime.</td>
-            </tr>
-            <tr>
-              <td><img src="../images/alquimiapng/piedra.png"></td>
-              <td>Infestacion</td>
-              <td> Mientras dura el efecto, existe una probabilidad
-                de que al recibir daño o morir, el usuario genere un silverfish.</td>
-            </tr>
-            <tr>
           </tbody>
         </table>
-        <h3>Tabla modificadores </h3>
-        <table class="table ">
+      </div>
+    </div>
+  </section>
+  <!-- Modificadores -->
+  <section id="modificadores" class="container">
+    <div class="glass-panel">
+      <h2 class="text-center mb-5 text-white">Domina los Modificadores</h2>
+      <div class="table-responsive">
+        <table class="table table-dark table-hover">
           <thead>
             <tr>
               <th>Icono</th>
-              <th>Nombre</th>
-              <th>Efecto</th>
+              <th>Modificador</th>
+              <th>Efecto de Cambio</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td><img src="../images/alquimiapng/polvoRedstone.png"></td>
-              <td>Polvo de redstone </td>
-              <td>Incrementa la duración
-              </td>
+              <td><img src="../images/alquimiapng/polvoRedstone.png" width="32"></td>
+              <td class="text-warning">Redstone</td>
+              <td class="small">Incrementa la duración del efecto.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/glowstone.png"></td>
-              <td>Polvo de piedra luminosa</td>
-              <td>Incrementa la potencia</td>
+              <td><img src="../images/alquimiapng/glowstone.png" width="32"></td>
+              <td class="text-warning">Piedra Luminosa</td>
+              <td class="small">Incrementa la potencia (Nivel II).</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/polvora.png"></td>
-              <td>Polvora</td>
-              <td>Se convierte en una poción arrojadiza.</td>
+              <td><img src="../images/alquimiapng/polvora.png" width="32"></td>
+              <td class="text-warning">Pólvora</td>
+              <td class="small">Convierte en poción arrojadiza.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/alientoDragon.png"></td>
-              <td>Aliento de dragon</td>
-              <td>Se convierte en una poción persistente.</td>
+              <td><img src="../images/alquimiapng/alientoDragon.png" width="32"></td>
+              <td class="text-warning">Aliento de Dragón</td>
+              <td class="small">Convierte en poción persistente.</td>
             </tr>
             <tr>
-              <td><img src="../images/alquimiapng/ojoArañaFermentado.png"></td>
-              <td>Ojo de araña fermentado</td>
-              <td>Corrompe el efecto(otorga un efecto contrario al de la pocion).</td>
+              <td><img src="../images/alquimiapng/ojoArañaFermentado.png" width="32"></td>
+              <td class="text-warning">Ojo Fermentado</td>
+              <td class="small">Corrompe e invierte el efecto original.</td>
             </tr>
-            <tr>
           </tbody>
         </table>
-        </article>
-      </div>
-
-
-      <div class="col-md-4">
-        <div class="p-4 mb-3 .bg-body-tertiary rounded">
-          <h2 class="py-4">Importante</h2>
-          <p class="mb-0">
-            A continuacion tienes un mapa de todas las recetas posibles con los ingredientes mencionados en las tablas
-          </p>
-          <img src="../images/alquimiapng/Alquimia-Recetas.webp" alt="Imagen de las distintas combinaciones"
-            class="img-fluid mt-3 rounded shadow">
-        </div>
       </div>
     </div>
-  </div>
+  </section>
+
+  <!-- Mapa Maestro -->
+  <section class="container">
+    <div class="glass-panel text-center">
+      <h2 class="mb-4 text-gold">Guía Suprema de Combinaciones</h2>
+      <p class="text-white small mb-4">
+        A continuación tienes un mapa de todas las recetas posibles con los ingredientes mencionados.
+      </p>
+      <img src="../images/alquimiapng/Alquimia-Recetas.webp" alt="Mapa de Alquimia" class="img-fluid rounded shadow w-100" style="max-width: 900px;">
+    </div>
+  </section>
 
   </main>
 
