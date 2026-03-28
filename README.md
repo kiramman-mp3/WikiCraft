@@ -1,164 +1,98 @@
-# WikiCraft
+# 💎 WikiCraft — La Enciclopedia Definitiva de Minecraft
 
-## Descripción del Proyecto
-WikiCraft es una enciclopedia web sobre Minecraft, donde los jugadores pueden aprender sobre bloques, mobs, recetas y todo lo relacionado con el mundo cuadrado más épico.
+[![Minecraft Version](https://img.shields.io/badge/Minecraft-1.21+-green.svg?style=for-the-badge&logo=minecraft)](https://www.minecraft.net/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
 
+**WikiCraft** no es solo una base de datos; es tu compañero esencial para sobrevivir, construir y dominar el mundo de los bloques. Un portal interactivo diseñado para aventureros que buscan información rápida, precisa y con una estética fiel al juego.
 
-## Objetivos
+---
 
-### Objetivo General
+## 🚀 ¡Pruébalo Ahora!
 
-Desarrollar una plataforma informativa y colaborativa sobre el juego Minecraft, utilizando **Git** como sistema de control de versiones y **GitFlow** para gestionar el trabajo en equipo.
+¿Listo para explorar? Visita la versión en vivo:
+👉 **[WikiCraft en GitHub Pages](https://kiramman-mp3.github.io/WikiCraft/)** 👈
 
-### Objetivos Específicos
+---
 
-- Implementar un sitio web interactivo y estéticamente atractivo que recopile información sobre Minecraft.
-- Fomentar el trabajo colaborativo utilizando herramientas de control de versiones (Git) para gestionar el proyecto.
-- Aplicar buenas prácticas de diseño web y organización del código.
+## ✨ Características Principales
 
-## Tecnologías usadas
+### ⚒️ Domina los Bloques
+Aprende sobre cada material, desde la humilde tierra hasta la poderosa netherita. Descubre sus usos, resistencia y dónde encontrarlos.
 
-- HTML5
-- CSS3
-- Bootstrap 5
-- Javascript
-- PHP
+### 🧟 Conoce a tus Vecinos (y Enemigos)
+Guía completa de Mobs. Estrategias de combate para Creepers y consejos para criar Aldeanos. ¡No dejes que el Warden te sorprenda!
 
+### 📜 El Arte del Crafteo
+Recetario interactivo con todo lo que necesitas para fabricar herramientas, armaduras y decoraciones épicas.
 
+### 🧪 Alquimia Maestra
+Conviértete en un experto en pociones. Guías paso a paso para destilar los efectos más poderosos del juego.
 
-## Estructura del Proyecto
+### 📡 Últimas Noticias de la Comunidad
+Integración en tiempo real con lo mejor de la comunidad de Minecraft en Reddit. ¡Mantente al día con las actualizaciones y secretos!
 
-El proyecto sigue una estructura organizada, utilizando **GitFlow** para gestionar el desarrollo y las actualizaciones. La estructura del repositorio se compone de las siguientes ramas:
+---
 
-- `main`: Rama estable del proyecto.
-- `develop`: Rama base para integrar las nuevas funcionalidades.
-- `feature/*`: Ramas para el desarrollo de nuevas características del sitio.
-- `release/1.0.0`: Rama para la preparación y prueba de la versión 1.0.0.
-- `hotfix/*`: Rama para corrección de errores críticos.
+## 📸 Galería del Proyecto
 
-### Ramas del Proyecto
+| Inicio | Bloques | Mobs |
+| :---: | :---: | :---: |
+| ![Página Principal](images/Pag_Prin.png) | ![Bloques](images/bloque1.png) | ![Mobs](images/mobs1.png) |
 
-- **`main`**: Contiene la versión estable del proyecto, lista para producción.
-- **`develop`**: Rama de desarrollo donde se integran nuevas características.
-- **`feature/*`**: Ramas dedicadas a nuevas características o módulos, como **feature/crafteos** o **feature/alquimia**.
-- **`release/1.0.0`**: Rama para probar y asegurar que todo esté listo antes del despliegue.
-- **`hotfix/*`**: Ramas para corrección de errores y ajustes importantes en producción.
+| Crafteos | Alquimia | Comunidad |
+| :---: | :---: | :---: |
+| ![Crafteos](images/craft1.png) | ![Pociones](images/Poc1.png) | ![Historias](images/hist1.png) |
 
+---
 
+## 🛠️ Tecnologías
 
-## Comandos Git Utilizados
+WikiCraft está construido con lo último en estándares web para ofrecer una experiencia fluida y visualmente "pixel-perfect":
 
-Durante el desarrollo del proyecto, se utilizaron los siguientes comandos de **Git** para gestionar el flujo de trabajo:
+- **Core**: HTML5, JavaScript (ES6+).
+- **Estilo**: CSS3 (con un tema oscuro personalizado de Minecraft) y Bootstrap 5.
+- **Flujo de Trabajo**: GitFlow para un desarrollo profesional y organizado.
 
-- `git clone <url>`: Clonar el repositorio en local.
-- `git checkout -b <branch>`: Crear una nueva rama para el desarrollo de una nueva funcionalidad.
-- `git commit -m "Mensaje"`: Confirmar los cambios realizados con un mensaje descriptivo.
-- `git push origin <branch>`: Subir cambios a la rama correspondiente en el repositorio remoto.
-- `git pull origin <branch>`: Descargar los cambios más recientes desde el repositorio remoto.
-- `git merge <branch>`: Fusionar una rama en la rama actual, como por ejemplo `git merge feature/alquimia`.
+---
 
+## 🎮 Instalación Local
 
+Si prefieres correr WikiCraft en tu propio "servidor" local:
 
-## Lecciones Aprendidas
+1. **Clona el reino:**
+   ```bash
+   git clone https://github.com/kiramman-mp3/WikiCraft.git
+   ```
+2. **Entra al directorio:**
+   ```bash
+   cd WikiCraft
+   ```
+3. **¡A jugar!**
+   Simplemente abre el archivo `index.html` en tu navegador favorito.
 
-- El uso de **GitFlow** permitió una gestión eficiente del proyecto, facilitando la colaboración y asegurando que las funcionalidades fueran revisadas antes de ser integradas a la versión estable.
-- La **comunicación efectiva** fue clave para evitar conflictos de código, especialmente cuando varios miembros del equipo trabajaban en los mismos archivos.
-- A través de **pull requests** y **revisión de código**, aprendimos a detectar errores de manera temprana y mejorar la calidad del código.
+---
 
-## Resultados del Proyecto
+## 🤝 Uniendo Fuerzas (Contribuciones)
 
-### Página Principal
+¿Quieres ayudarnos a mejorar WikiCraft? ¡Eres bienvenido!
 
-![Página Principal](../WikiCraft/images/Pag_Prin.png)
+1. Realiza un **Fork** de este proyecto.
+2. Crea tu rama de características (`git checkout -b feature/EpicFeature`).
+3. Haz **Commit** de tus cambios.
+4. Abre un **Pull Request** y cuéntanos sobre tu mejora.
 
-![Página Principal](../WikiCraft/images/Pag_Prin_1.png)
+---
 
-### Bloques en Minecraft
+## 👑 El Equipo de Desarrollo
 
-![Bloques](../WikiCraft/images/bloque1.png)
+Este proyecto fue forjado con pasión por:
 
-![Bloques](../WikiCraft/images/bloque2.png)
+- **Alexis López**
+- **José Manzano**
+- **Alan Puruncajas**
+- **Johan Rodríguez**
+- **Juan Pablo Vayas**
 
-![Bloques](../WikiCraft/images/bloque3.png)
+---
 
-![Bloques](../WikiCraft/images/bloque4.png)
-
-### Mobs en Minecraft
-
-![Mobs](../WikiCraft/images/mobs1.png)
-
-![Mobs](../WikiCraft/images/mobs2.png)
-
-### Crafteos en Minecraft
-
-![Crafteos](../WikiCraft/images/craft1.png)
-
-![Crafteos](../WikiCraft/images/craft2.png)
-
-![Crafteos](../WikiCraft/images/craft3.png)
-
-![Crafteos](../WikiCraft/images/craft4.png)
-
-### Pociones en Minecraft
-
-![Pociones](../WikiCraft/images/Poc1.png)
-
-![Pociones](../WikiCraft/images/Poc2.png)
-
-![Pociones](../WikiCraft/images/Poc3.png)
-
-![Pociones](../WikiCraft/images/Poc4.png)
-
-![Pociones](../WikiCraft/images/Poc5.png)
-
-![Pociones](../WikiCraft/images/Poc6.png)
-
-### Historias de la Comunidad
-
-![Historias](../WikiCraft/images/hist1.png)
-
-![Historias](../WikiCraft/images/hist2.png)
-
-### Jugar
-
-![Jugar](../WikiCraft/images/jug1.png)
-
-## Conclusiones
-
-El uso de **Git** y **GitFlow** permitió una integración efectiva de nuevas funcionalidades y la corrección de errores durante el desarrollo. El proyecto está listo para ser desplegado y continuará recibiendo actualizaciones y mejoras. El trabajo en equipo y el control de versiones facilitaron el proceso de desarrollo, asegurando una colaboración fluida entre los miembros del equipo.
-
-
-
-## Recomendaciones
-
-1. Continuar utilizando **GitFlow** en futuros proyectos para mantener un flujo de trabajo organizado.
-2. Establecer convenciones claras para los **mensajes de commit** y la **gestión de ramas**.
-3. Mejorar el uso de **issues y boards** en GitHub para organizar tareas y seguimiento del progreso.
-4. Documentar el **proceso de desarrollo** desde el inicio para facilitar futuras actualizaciones.
-
-
-
-## Autores
-
-- Alexis López
-- José Manzano
-- Alan Puruncajas
-- Johan Rodríguez
-- Juan Pablo Vayas
-
-
-## Instalación
-Si quieres correrlo localmente:
-
-- git clone https://github.com/kiramman-mp3/WikiCraft.git
-- cd WikiCraft
-
-
-### **Cómo Contribuir**
-
-1. Forkea el repositorio.
-2. Crea una rama para tu nueva característica (`feature/nueva-caracteristica`).
-3. Realiza tus cambios y haz commit.
-4. Abre un Pull Request y descríbelo.
-
-
+*Desarrollado con ❤️ para la comunidad de Minecraft.*
